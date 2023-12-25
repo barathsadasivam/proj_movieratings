@@ -1,0 +1,6 @@
+{"fields":[
+{"metadata":{},"name":"UserID","nullable":true,"type":"integer"},
+{"metadata":{},"name":"MovieID","nullable":true,"type":"integer"},
+{"metadata":{},"name":"Rating","nullable":true,"type":"integer"},
+{"metadata":{},"name":"Timestamp","nullable":true,"type":"integer"}],
+"type":"struct"}

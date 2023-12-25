@@ -1,0 +1,5 @@
+{"fields":[
+{"metadata":{},"name":"MovieID","nullable":true,"type":"integer"},
+{"metadata":{},"name":"Title","nullable":true,"type":"string"},
+{"metadata":{},"name":"Genres","nullable":true,"type":"string"}],
+"type":"struct"}
