@@ -4,9 +4,9 @@
 		"movies_data": "/content/movies.dat",
 		"ratings_schemafile": "/content/ratings_schemafile.json",
 		"movies_schemafile": "/content/movies_schemafile.json",
-		"original_ratings_targetformat": "/content/ratings.parquet",
-		"original_movies_targetformat": "/content/movies.parquet",
-		"top_3_per_user_data": "/content/top3peruser.parquet",
-		"movie_stats_data": "/content/moviestats.parquet"
+		"original_ratings_targetformat": "/content/output_files/ratings/",
+		"original_movies_targetformat": "/content/output_files/movies/",
+		"movie_stats_data": "/content/output_files/movie_stats/",
+		"top_3_per_user_data": "/content/output_files/top3peruser/"		
 	}
 }
