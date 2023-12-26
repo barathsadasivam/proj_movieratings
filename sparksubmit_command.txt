@@ -1,0 +1,19 @@
+# for running Spark in local mode
+
+spark-submit \
+--master local[*] \  # Utilize all available cores
+--executor-memory 2G \  # Allocate memory per executor
+--driver-memory 2G \  # Memory for the driver
+movie_ratings_analysis.py
+
+
+# for running Spark in a cluster environment
+
+spark-submit \
+--master yarn \  # Set the cluster manager to YARN
+--deploy-mode cluster \  # Deploy mode (cluster or client)
+--num-executors 5 \  # Number of executors
+--executor-cores 2 \  # Cores per executor
+--executor-memory 1G \  # Memory per executor
+--driver-memory 2G \  # Memory for the driver
+movie_ratings_analysis.py
